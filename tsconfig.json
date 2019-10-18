@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "outDir": "./dist",
+        "removeComments": true,
+        "allowJs": true,
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es6",
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "skipLibCheck": false,
+        "baseUrl": "./src",
+        "typeRoots": ["node_modules/@types", "src/@types"]
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "include": [
+        "src/**/*"
+    ]
+}
+
